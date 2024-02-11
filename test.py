@@ -4,7 +4,7 @@ import numpy as np
 print("\033[H\033[J", end="")
 #end Terminalwindow putzen
 
-e = np.random.random((2, 4)) 
+e = np.random.random((2, 4))
 print ("A random array:\n", e)
 
 print("Shape of array: ", e.shape) 
